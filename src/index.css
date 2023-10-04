@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #2980b9;
+}
+
+.nav-link:active {
+  background-color: #1f618d;
+}
+
+/* Optional: Add a subtle shadow on hover */
+.nav-link:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add a smooth transition effect */
+.nav-link {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
